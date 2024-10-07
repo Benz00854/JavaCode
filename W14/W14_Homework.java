@@ -19,7 +19,7 @@
                 int countEN = 0;
 
                 for(int i=0;i<codes.length;i++){
-                    if(codes[i].endWith("TH")){
+                    if(codes[i].endsWith("TH")){
                         countTH++;
                     }else{
                         countEN++;
